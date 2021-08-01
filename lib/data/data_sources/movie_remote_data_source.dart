@@ -1,7 +1,3 @@
-import 'dart:convert';
-import 'dart:developer';
-
-import 'package:http/http.dart';
 import 'package:movieapp/data/core/api_client.dart';
 import 'package:movieapp/data/models/movie_model.dart';
 import 'package:movieapp/data/models/movie_result_model.dart';
