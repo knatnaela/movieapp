@@ -5,6 +5,7 @@ import 'package:movieapp/presentation/blocs/movie_backdrop/movie_backdrop_bloc.d
 import 'package:movieapp/presentation/blocs/movie_carousel/movie_carousel_bloc.dart';
 import 'package:movieapp/presentation/blocs/movie_tabbed/movie_tabbed_bloc.dart';
 import 'package:movieapp/presentation/journeys/home/movie_carousel/movie_carousel_widget.dart';
+import 'package:movieapp/presentation/journeys/home/movie_tabbed/movie_tabbed_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -66,9 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   FractionallySizedBox(
                     alignment: Alignment.bottomCenter,
                     heightFactor: 0.4,
-                    child: Placeholder(
-                      color: Colors.white,
-                    ),
+                    child: MovieTabbedWidget(),
                   )
                 ],
               );

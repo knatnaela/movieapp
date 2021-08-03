@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movieapp/common/constants/size_constants.dart';
-import 'package:movieapp/common/extensions/size_extension.dart';
+import 'package:movieapp/common/extensions/size_extensions.dart';
 import 'package:movieapp/common/screenutils/screen_util.dart';
 import 'package:movieapp/presentation/journeys/home/movie_carousel/movie_card_widget.dart';
 
