@@ -9,7 +9,11 @@ class TranslationConstants {
   static const String feedback = 'feedback';
   static const String about = 'about';
   static const String okay = 'okay';
+  static const String retry = 'retry';
+  static const String somethingWentWrong = 'somethingWentWrong';
+  static const String checkNetwork = 'checkNetwork';
   static const String aboutDescription = 'aboutDescription';
+  static const String noMovies = 'noMovies';
 
   static const String popular = 'popular';
   static const String now = 'now';
